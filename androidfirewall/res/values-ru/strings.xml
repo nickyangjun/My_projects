@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translation of RU version (2013): Igor Nedoboy (i.nedoboy<AT>gmail<DOT>com) -->
+<resources>
+
+    <string name="app_name">Файрвол</string>
+    <string name="title_enabled">Файрвол включён</string>
+    <string name="title_disabled">Файрвол отключён</string>
+    <string name="showrules">Текущие правила</string>
+    <string name="applyrules">Применить правила</string>
+    <string name="saverules">Сохранить правила</string>
+    <string name="applyrules2">Применить правила IPv6</string>
+    <string name="purgerules">Очистить правила</string>
+    <string name="setpwd">Сменить пароль</string>
+    <string name="help">Справка</string>
+    <string name="close">Закрыть</string>
+    <string name="exit">Выход</string>
+    <string name="fw_enabled">Включить</string>
+    <string name="fw_disabled">Отключить</string>
+    <string name="ipv6_enabled">IPv6 включён</string>
+    <string name="ipv6_disabled">IPv6 отключён</string>
+    <string name="ipv6_was_enabled">IPv6 включён</string>
+    <string name="ipv6_was_disabled">IPv6 отключён</string>
+    <string name="log_enabled">Журнал включён</string>
+    <string name="log_disabled">Журнал отключён</string>
+    <string name="log_was_enabled">Журналирование включено</string>
+    <string name="log_was_disabled">Журналирование отключено</string>
+    <string name="log_cleared">Журналы очищены</string>
+    <string name="show_log">Журнал REJECT</string>
+    <string name="clear_log">Очистить журналы</string>
+    <string name="applying_rules">Применение правил IPTABLES</string>
+    <string name="applyingipv6_rules">Применение правил IP6TABLES</string>
+    <string name="saving_rules">Сохранение правил IPTABLES</string>
+    <string name="deleting_rules">Удаление правил IPTABLES</string>
+    <string name="rules_applied">Правила применены</string>
+    <string name="rules_saved">Правила сохранены</string>
+    <string name="rules_deleted">Правила удалены</string>
+    <string name="pass_titleset">Установка пароля</string>
+    <string name="pass_titleget">Вход заблокирован</string>
+    <string name="enterpass">Введите пароль:</string>
+    <string name="enternewpass">(оставьте пустым для удаления):</string>
+    <string name="passdefined">Пароль установлен</string>
+    <string name="passremoved">Пароль отключён</string>
+    <string name="passerror">Сбой смены пароля</string>
+    <string name="working">Обработка…</string>
+    <string name="reading_apps">Чтение установленных приложений</string>
+    <string name="please_wait">Подождите…</string>
+    <string name="mode_header">Список: %s</string>
+    <string name="mode_whitelist">белый (выбранные разрешены)</string>
+    <string name="mode_blacklist">чёрный (выбранные запрещены)</string>
+    <string name="toast_bin_installed">Исполняемые файлы файрвола установлены!</string>
+    <string name="toast_enabled">Файрвол включён!</string>
+    <string name="toast_error_enabling">Сбой включения файрвола!</string>
+    <string name="toast_disabled">Файрвол отключён!</string>
+    <string name="toast_error_disabling">Сбой отключения файрвола!</string>
+    <string name="set_custom_script">Свои скрипты</string>
+    <string name="custom_script_defined">Скрипт сохранён</string>
+    <string name="custom_script_removed">Скрипт удалён</string>
+    <string name="custom_script_error">Сбой сохранения скрипта</string>
+    <string name="custom_script_info"><b>Скрипт при включении:</b>\n<i>(<a href="http://code.google.com/p/droidwall/wiki/CustomScripts">подробнее</a>, оставьте пустым для удаления)</i></string>
+    <string name="custom_script2_info"><b>Скрипт при отключении:</b>\n<i>(выполняется при отключении файрвола)</i></string>
+    <string name="unsaved_changes">Несохранённые изменения</string>
+    <string name="unsaved_changes_message">Сохранить или отменить изменения?</string>
+    <string name="apply">Сохранить</string>
+    <string name="discard">Отменить</string>
+    <string name="overwrite_rules">Действительно перезаписать существующие правила?</string>
+    <string name="importsuccess">Импорт выполнен!</string>
+    <string name="importfailed">Сбой импорта!</string>
+    <string name="exportfailed">Сбой экспорта!</string>
+    <string name="exportsuccess">Экспорт выполнен!</string>
+    <string name="enterfilename">Введите имя файла</string>
+    <string name="new_app_installed">Приложение требует доступ к сети</string>
+    <string name="notify_enabled">Уведомления включены</string>
+    <string name="notify_disabled">Уведомления отключены</string>
+    <string name="notify_was_enabled">Уведомления включены</string>
+    <string name="notify_was_disabled">Уведомления отключены</string>
+    <string name="importrules">Импорт правил</string>
+    <string name="exportrules">Экспорт правил</string>
+    <string name="managerulefiles">Файлы правил</string>
+    <string name="options">Опции</string>
+    <string name="wifi">WiFi</string>
+    <string name="data">Data</string>
+    <string name="roaming">Roam</string>
+    <string name="clear">Очистить</string>
+    <string name="password_not_same">Пароли не совпадают!</string>
+    <string name="password_enter_again">Введите пароль ещё раз</string>
+    <string name="profile_header">Профиль: %s</string>
+    <string name="defaultprofile">По умолчанию</string>
+    <string name="profile1">Профиль 1</string>
+    <string name="profile2">Профиль 2</string>
+    <string name="profile3">Профиль 3</string>
+    <string name="profile4">Профиль 4</string>
+    <string name="profile5">Профиль 5</string>
+    <string name="pleasechoose">Выберите профиль для настройки</string>
+    <string name="saveprofile">Создать профиль</string>
+    <string name="defaultsaved">Профиль по умолчанию сохранён!</string>
+    <string name="profile1saved">Профиль 1 сохранён</string>
+    <string name="profile2saved">Профиль 2 сохранён</string>
+    <string name="profile3saved">Профиль 3 сохранён</string>
+    <string name="profile4saved">Профиль 4 сохранён</string>
+    <string name="profile5saved">Профиль 5 сохранён</string>
+    <string name="profileselect">Выберите профиль для включения</string>
+    <string name="profileapplied">Профиль включён</string>
+    <string name="loadprofile">Сменить профиль</string>
+    <string name="rulesoptions">Управление правилами</string>
+    <string name="profilesoptions">Управление профилями</string>
+    <string name="ipv6_title">Поддержка IPv6</string>
+    <string name="notifications_title">Запрос доступа</string>
+    <string name="enableLog_title">Журнал событий</string>
+    <string name="invert">Инверсия</string>
+    <string name="twofortyfouram_locale_breadcrumb_format">%1$s%2$s%3$s</string>
+    <string name="twofortyfouram_locale_breadcrumb_separator">" | "</string>
+    <string name="twofortyfouram_locale_menu_dontsave">Отмена</string>
+    <string name="twofortyfouram_locale_menu_help">Справка</string>
+    <string name="twofortyfouram_locale_menu_save">Готово</string>
+    <string name="tasker_name">Файрвол</string>
+    <string name="tasker_profile_disabled">Файрвол отключён ярлыком или приложением!</string>
+    <string name="search_name">приложение</string>
+    <string name="profilenames">Имя</string>
+    <string name="vpn_title">Поддержка VPN</string>
+    <string name="vpn">VPN</string>
+    <string name="roaming_title">Поддержка роуминга</string>
+    <string name="usersettings">Настройки</string>
+    <string name="taskertoast_title">Уведомить о переключении</string>
+    <string name="ipv6_summary">Поддержка сетей IPv6</string>
+    <string name="vpn_summary">Поддержка сетей VPN</string>
+    <string name="roaming_summary">Поддержка роуминговых сетей</string>
+    <string name="taskertoast_summary">Уведомлять о переключении профиля ярлыками, Tasker, Locale, Llama, Macrodroid</string>
+    <string name="log_summary">Журналирование событий файрвола</string>
+    <string name="notification_summary">Уведомлять о новых приложениях, требующих доступ к сети</string>
+    <string name="tasker_profile">Профиль файрвола переключен ярлыком или приложением!</string>
+    <string name="apply_setting_changes">Применение изменённых правил</string>
+    <string name="rules_export_successfully">Правила экспортированы</string>
+    <string name="rules_import_successfully">Правила импортированы</string>
+    <string name="no_rules_file">Не найден файл правил файрвола. Сначала выполните экспорт в файл</string>
+    <string name="no_storage">Не найдена карта памяти. Убедитесь, что устройство не подключено к ПК в режиме накопителя</string>
+    <string name="file_deleted">Файл удалён</string>
+    <string name="widget_fail">Файрвол защищён паролем!</string>
+    <string name="error_no_root">Не предоставлены права root!</string>
+    <string name="languageSupport">Язык</string>
+    <string name="simplewidget">Файрвол — вкл/откл</string>
+    <string name="statuswidget">Файрвол — меню</string>
+    <string name="sdcard_title">Приложения на SD</string>
+    <string name="sdcard_summary">Применять правила для приложений, требующих доступ к сети, после монтирования карты памяти</string>
+    <string name="log_empty">Нет записей</string>
+    <string name="log_title">Журнал файрвола</string>
+    <string name="usage_help">Инструкции</string>
+    <string name="rules_help">Правила</string>
+    <string name="profiles_help">Профили</string>
+    <string name="about_help">Сведения</string>
+    <string name="drawer_open">Открыть Боковую панель</string>
+    <string name="drawer_close">Закрыть Боковую панель</string>
+    <string name="lan">LAN</string>
+    <string name="lan_summary">Поддержка локальных сетей</string>
+    <string name="lan_title">Поддержка LAN</string>
+    <string name="select_mode">Выберите режим:</string>
+    <string name="delete_rules_yes">ОК</string>
+    <string name="delete_rules_no">Отмена</string>
+    <string name="no_rules_files">Не найдена папка правил файрвола. Сначала выполните экспорт правил в файл</string>
+    <string name="rules_file_deleted">Файл правил удалён</string>
+    <string name="version_about">Версия:</string>
+    <string name="connectchangerules_summary">Выполняется при смене состояния подключения к WiFi, LAN, сотовой или роуминговой сети. Необходимо для поддержки LAN, снижает производительность</string>
+    <string name="connectchangerules_title">Автоприменение правил</string>
+    <string name="system_iptables">Системный IPTABLES</string>
+    <string name="included_iptables">Встроенный IPTABLES</string>
+    <string name="iptables_title">Бинарный файл IPTABLES</string>
+    <string name="ipv6_unavailable">Поддержка IPv6 недоступна на этом устройстве</string>
+    <string name="tether_summary">Использование тетеринга без отключения файрвола</string>
+    <string name="tether_title">Поддержка тетеринга</string>
+    <string name="log_fetch_error">Сбой получения журнала</string>
+    <string name="log_parse_error">Сбой обработки журнала</string>
+    <string name="LogAppName">Приложение</string>
+    <string name="LogPackBlock">Блокировано пакетов, всего</string>
+    <string name="LogPackAllowed">Разрешено пакетов, всего</string>
+    <string name="log_failed">Сбой обновления состояния журнала</string>
+    <string name="input_off_summary">INPUT цепочки IPTABLES позволяют блокировать сторонние подключения к этому устройству</string>
+    <string name="input_on_summary">Отключите для деактивации INPUT цепочек IPTABLES</string>
+    <string name="input_title">INPUT цепочки </string>
+    <string name="input_options_title">Настройки INPUT цепочек</string>
+    <string name="settings_title">Настройки приложения</string>
+    <string name="multiuser_summary"><b><i>НЕОБХОДИМО</i></b> использование чёрного списка для <b><i>ВСЕХ ПОЛЬЗОВАТЕЛЕЙ</i></b>. Требуется версия Android 4.1 или новее. Не поддерживается на смартфонах</string>
+    <string name="multiuser_title">Многопользовательский режим</string>
+    <string name="multiuser_enabled">Включён многопользовательский режим. Используется чёрный список</string>
+    <string name="multiuser_disabled">Вы отключили многопользовательский режим, находясь не в основной учётной записи. Перед отключением, необходимо включить многопользовательский режим во всех учётных записях</string>
+    <string name="input_wifi">INPUT</string>
+    <string name="dst_ip">IP получателя</string>
+    <string name="src_ip">IP отправителя</string>
+    <string name="dst_port">Порт получателя</string>
+    <string name="log_accept_summary">Журналирование всех <i>разрешённых</i> входящих и исходящих данных для просмотра, куда приложения отправляют и откуда принимают данные</string>
+    <string name="enableLog_accept_title">Журнал ACCEPT</string>
+    <string name="show_accept_log">Журнал ACCEPT</string>
+    <string name="sendreport">Отчёт об ошибках</string>
+    <string name="report_fail">Сбой формирования отчёта об ошибках</string>
+    <string name="interface_fail">Сбой получения сведений об интерфейсе</string>
+    <string name="generate_reports">Формирование отчёта об ошибках</string>
+    <string name="generate_zip">Создание Zip-архива</string>
+    <string name="no_zip">Не найден Zip-архив с отчётом об ошибках</string>
+    <string name="send_email">Отправка письма</string>
+    <string name="confirm_delete">Действительно удалить файл</string>
+    <string name="error_purging">Сбой очистки iptables:</string>
+    <string name="error_purging_code">Сбой очистки iptables, код завершения:</string>
+    <string name="error_purgingipv6">Сбой очистки iptables:</string>
+    <string name="error_purgingipv6_code">Сбой очистки iptables, код завершения:</string>
+    <string name="error_showing_rules">Сбой отображения правил:</string>
+    <string name="error_clearing_rules">Сбой очистки правил:</string>
+    <string name="error_accessing_root">Отсутствуют права root</string>
+    <string name="error_installing_binaries">Сбой при установке исполняемых файлы файрвола</string>
+    <string name="rules_file_missing">Выбранный файл правил отсутствует или повреждён. Повторите экспорт правил в файл</string>
+    <string name="error_accessing_class">Сбой получения данных класса. Пожалуйста, свяжитесь с разработчиком</string>
+    <string name="error_af_folder">Нет доступа к папке файрвола. Сначала выполните экспорт правил</string>
+    <string name="system_language">Язык системы</string>
+    <string name="english">English</string>
+    <string name="arabic">Arabic</string>
+    <string name="czech">Czech</string>
+    <string name="german">German</string>
+    <string name="spanish">Spanish</string>
+    <string name="french">French</string>
+    <string name="italian">Italian</string>
+    <string name="japanese">Japanese</string>
+    <string name="port_brazil">Portuguese, Brazil</string>
+    <string name="russian">РУССКИЙ</string>
+    <string name="simple_chinese">Simplified Chinese</string>
+    <string name="vietnamese">Vietnamese</string>
+    <string name="polish">Polish</string>
+    <string name="greek">Greek</string>
+    <string name="ifconfig_fail">Сбой получения сведений ifconfig</string>
+    <string name="changelog_help">Изменения</string>
+    <string name="profile_created">Профиль успешно создан</string>
+    <string name="help_usage_description"><b>Использование Android Firewall</b>\n<b>1.</b> Нажмите строку <b>Список:…</b> для переключения между <i>Белым</i> и <i>Чёрным</i> списками.
+\n<b>2.</b> Выберите приложения, которые необходимо заблокировать или разрешить (в зависимости от типа списка), для каждого интерфейса.
+\n<b>3.</b> Нажмите Меню и включите файрвол. Если файрвол уже включён, просто нажмите <b>Применить правила</b>.
+\nПравила будут сохранены и автоматически восстановлены после перезагрузки устройства.
+\nДля просмотра всех текущих правил IPTABLES, нажмите <b>Текущие правила</b> в Боковой панели.</string>
+    <string name="help_usage_widgets">\n<b>Виджеты</b>\nДля быстрого включения и отключения файрвола одним нажатием, добавьте виджет Файрвол — вкл/откл на домашний экран.
+\nДля быстрого переключения профиля или включения/отключения файрвола, добавьте виджет Файрвол — меню на домашний экран.</string>
+    <string name="help_usage_logs">\n<b>Журнал REJECT</b>\nДля возможности просмотра событий блокировки приложений, откройте раздел <i>Настройки</i> и включите Журнал REJECT.
+\nAndroid Firewall будет записывать каждое событие блокировки приложений. Для просмотра журнала откройте Боковую панель и нажмите <b>Журнал REJECT</b>. 
+\nНекоторые недавно выпущенные устройства, в первую очередь из линейки Nexus, используют NFLOG вместо LOG. Android Firewall поддерживает оба. Устройства, использующие NFLOG, запускают две службы для записи данных. Эти службы запускаются только в случае включения журналирования.  
+\n
+\nAndroid Firewall также поддерживает журналирование принятых (ACCEPTED) данных. С помощью этих сведений можно заблокировать определённые IP-адреса пользовательским скриптом или через файл HOSTS.
+\n</string>
+    <string name="help_usage_pwdsearch"><b>Пароль</b>\nДля защиты файрвола паролем выберите в Боковой панели команду <b>Сменить пароль</b>.
+\nДля удаления пароля оставьте поле ввода пустым.
+\n<b>Поиск приложения</b>\nВы можете найти приложение по нескольким буквам его названия, вводя символы в поле с подсказкой \"приложение\".
+\n</string>
+    <string name="help_usage_interfaces"><b>Поддерживаемые интерфейсы</b>\nПомимо традиционных интерфейсов — WiFi и передачи данных в сотовой сети, поддерживаются три новых интерфейса. Это соединения VPN, роуминговые и локальные сети. Включение производится в разделе <i>Настройки</i>.
+\n
+\n<i>Поддержка VPN</i> позволяет разрешить доступ приложениям только к VPN-подключению.
+\n
+\n<i>Поддержка роуминга</i> позволяет разрешить доступ приложениям только к роуминговой сети.
+\n
+\n<i>Поддержка LAN</i> позволяет разрешить доступ приложениям только к локальной сети.  Поддержка LAN требует включения функции <i>Автоприменение правил</i> в разделе <i>Настройки</i>". Подробности изложены в описании функций.
+\n
+\n<b>ПРИМЕЧАНИЕ:</b><i>Автоприменение правил и Поддержка LAN</i> требуют использования разрешений доступа в Интернет и просмотра состояния WiFi для получения сведений о локальном IP-адресе и подсети для каждого из интерфейсов.  <b>Android Firewall</b> не отправляет никаких данных и не использует доступ в Интернет.
+\n</string>
+    <string name="help_usage_tether"><i>Поддержка тетеринга</i> позволяет подключить ноутбук/планшет/телефон к этому устройству без отключения файрвола.  Функция переработана и теперь не требует включения доступа для "apps that run as root" и "kernel".  Интерфейс Bluetooth-тетеринга теперь поддерживается этой настройкой.
+\n</string>
+    <string name="help_usage_tasker"><b>Поддержка Tasker/Locale</b>\n<i>Android Firewall</i> содержит плагин для приложений Tasker и Locale. Плагин позволяет этим приложениям включать и отключать файрвол, а также переключать профиль файрвола по событию.  Подробнее об этом можно узнать во вкладке \"Профили\", в разделе \"Использование Tasker\".
+\nУведомления о переключении профиля приложением Tasker по умолчанию отключены. Их можно включить в разделе <i>Настройки</i>.
+\n</string>
+    <string name="help_usage_multiuser"><b>Многопользовательский режим</b>\n<i>Android Firewall</i> поддерживает многопользовательский режим на планшетах.  Этот режим требует использования Чёрного списка и включается в разделе Настройки.  Для каждого пользователя используются свои цепочки правил IPTABLES, что позволяет устанавливать индивидуальные ограничения для приложений.
+\n</string>
+    <string name="help_usage_input"><b>Поддержка INPUT цепочек</b>\n<i>Android Firewall</i> поддерживает INPUT цепочки правил. INPUT цепочки применяются для блокировки сторонних внешних подключений. INPUT цепочки работают несколько иначе, чем OUTPUT цепочки <i>Android Firewall</i>. INPUT цепочки применяются одновременно как к WiFi, так и к подключению к сотовой сети, так как нет возможности применять правила для этих интерфейсов по отдельности. INPUT цепочки поддерживают как Чёрный, так и Белый списки, аналогично OUTPUT цепочкам. Эта возможность предусмотрена для случая, когда необходимо запретить доступ приложения к сотовой сети и к INPUT, но необходимо разрешить доступ к WiFi. Например, если запретить браузеру доступ к сотовой сети и к INPUT, но разрешить доступ к WiFi, браузер сможет нормально работать с WiFi-подключением. INPUT цепочки работают только в Android 4.x из-за ограничений предыдущих версий ядра.
+\n</string>
+    <string name="help_usage_ipv6lang"><b>Прочие настройки</b>\n
+\n<i>Поддержка IPv6</i> доступна в разделе <i>Настройки</i> для использующих IPv6.
+\n
+\nМожно изменить язык приложения на один из поддерживаемых в разделе <i>Настройки</i>.
+\n</string>
+    <string name="help_usage_sdx86"><i>Поддержка SD</i> адресована пользователям, переместившим приложения на карту памяти. Прочитайте описание перед включением.
+\n
+\n<i>Поддержка x86</i> предназначена для устройств, основанных на процессорах Intel.
+\n</string>
+    <string name="help_usage_shortcuts"><i>Ярлыки</i> позволяют быстро включать и выключать файрвол, а также переключать профили. Эти ярлыки доступны и для использования в других приложениях наподобие Llama и Macrodroid.
+\n</string>
+    <string name="help_usage_media"><b>Информация</b>\n
+\n<i>Media Server</i> <b>необходим</b> для работы <i>YouTube</i>.
+\n</string>
+    <string name="help_usage_reports"><i>Android Firewall</i> может формировать отчёты об ошибках, собирая сведения, необходимые для устранения ошибок, найденных пользователями. Эта функция формирует 3 файла, содержащих сведения об устройстве, но никакие персональные данные при этом не собираются. Указанные файлы записываются на внешний накопитель, поэтому вы легко можете просмотреть собранные сведения.\n
+\nФайлы отчётов сохраняются в папке с названием af_error_reports. Файлы упаковываются в архив, и пользователю предоставляется возможность их отправки разработчику. Пожалуйста, подробно опишите ваши действия, после которых произошёл сбой в работе приложения.
+\n</string>
+    <string name="help_rules"><i>Правила</i> можно экспортировать в файл, импортировать из файла и удалять эти файлы прямо в файрволе.\n  
+        \nВсе пользовательские настройки хранятся в файлах правил. При экспорте также сохраняются текущие настройки, например Запрос доступа, Журнал событий, Поддержка IPv6 и прочие. Файлы правил также используются для создания профилей.
+\n
+\n<b>Экспорт правил</b> выгружает в файл текущие правила и настройки.
+\n<b>Импорт правил</b> загружает правила и настройки из файла.
+\n<b>Файлы правил</b> позволяет удалять файлы с правилами и настройками.
+\n
+\n<i><b>Инструкции</b></i>\n
+\n<b>Экспорт правил</b>	\n
+\n1.  Выдвините слева Боковую панель.
+\n2.  Нажмите <i>Экспорт правил</i>.
+\n3.  Введите имя файла для экспорта.
+\n4.  Нажмите ОК для сохранения файла.
+\n
+\nФайл сохраняется в памяти, которую устройство считает внешним накопителем, в папке с названием <i>androidfirewall</i>.  Имя файла состоит из названия, введённого пользователем, и заканчивается \'_af.rules\'.
+\n
+\n<b>Импорт правил</b>	\n
+\n1.  Выдвините слева Боковую панель.
+\n2.  Нажмите <i>Импорт правил</i>.
+\n3.  Выберите файл для импорта.
+\n
+\nПосле выбора файла для импорта, данные будут загружены, правила обновятся и вступят в силу.
+\n
+\n<b>Управление файлами правил</b>	\n
+\n1.  Выдвините слева Боковую панель.
+\n2.  Нажмите <i>Файлы правил</i>.
+\n3.  Выберите файл для удаления.
+\n4.  Будет запрошено подтверждение удаления.
+\n5.  Нажмите \'ОК\' или \'Отмена\'.  
+\n
+\nПри нажатии \'ОК\' файлы правил будут удалены.</string>
+    <string name="help_profiles"><i>Профили</i> используются для быстрого переключения правил файрвола и его настроек. Это очень удобно, так как можно использовать совершенно разные наборы правил при подключении к различным сетям. Например, профиль для рабочей сети может быть совершенно иным по сравнению с профилем для домашней сети.
+\n
+\nПрофили создаются из файлов правил, которые вы экспортируете. Таким образом, вы можете легко и быстро переключаться между ними, даже если нуждаетесь больше чем в 5 профилях.\n
+\n<b>Создать профиль</b> позволяет выбрать файл правил и загрузить из него правила и настройки в профиль.
+\n<b>Сменить профиль</b> позволяет применить нужный профиль.
+\n<b>Имя профиля</b> позволяет переименовать профили для более лёгкого запоминания, когда какой профиль применяется.
+\n
+\nПрофиль можно переключать множеством способов:
+\n
+\n<b>1.</b> Вручную включить профиль командой Смена профиля.
+\n<b>2.</b> Выбрать профиль из выпадающего списка в основном экране приложения.
+\n<b>3.</b> С помощью приложений наподобие Tasker или Locale для автоматического переключения по расписанию, в зависимости от местоположения или других условий.
+\n<b>4.</b> Используя виджет <i>Файрвол — меню</i> для быстрой смены профилля с домашнего экрана.
+\n
+\n<i><b>Инструкции</b></i>\n
+\n<b>Создание профиля</b>\n
+\n1.  Выдвините слева Боковую панель.
+\n2.  Нажмите <i>Создать профиль</i>.
+\n3.  Нажмите на профиль для использования.
+\n4.  Выберите файл правил, который необходимо загрузить в этот профиль.
+\n5.  Нажмите на другой профиль, если необходимо загрузить в него другой файл правил, или нажмите кнопку Назад для завершения.
+\n
+\n<b>Сменить профиль</b>\n
+\n1.  Выдвините слева Боковую панель.
+\n2.  Нажмите <i>Сменить профиль</i>.
+\n3.  Выберите профиль для использования.
+\n
+\n<b>Имя профиля</b>\n
+\n1.  Выдвините слева Боковую панель.
+\n2.  Нажмите <i>Имя профиля</i>.
+\n3.  Выберите профиль для переименования.
+\n4.  Введите имя профиля и нажмите \'OK\'.
+\n5.  Можно продолжить переименование профилей или нажать кнопку Назад для завершения.
+\n
+\n<b>Выпадающий список профилей</b>\n
+\n1.  При нажатии на название текущего профиля появится выпадающий список всех профилей.
+\n2.  Выберите профиль для применения.
+\n
+\n<b>Использование Tasker</b>\n
+\n1.  Откройте Tasker.
+\n2.  Нажмите \'+\' и выберите \'First Context\' — событие для переключения профиля.
+\n3.  Будет показано приглашение \'Enter Task\'.
+\n4.  Введите имя задачи и подтвердите её создание.
+\n5.  Нажмите \'+\' для вызова экрана \'Select Action Category\'.
+\n6.  Выберите \'Plugin\'.
+\n7.  Выберите <i>Файрвол</i>.
+\n8.  Нажмите кнопку \'Edit\'.
+\n9.  Выберите профиль файрвола, который хотите включать с помощью Tasker.
+\n10.  Однократно нажмите кнопку Назад. Теперь можно проверить переключение профиля с помощью Tasker, нажав кнопку \'Play\' в левом нижнем углу.</string>
+    <string name="help_dialog_text"><i>Автор: Jason Tschohl
+        \nАвтор оригинала: Rodrigo Zechin Rosauro</i>		\n    <i><a href="http://github.com/skullone/android_firewall">http://github.com/skullone/android_firewall</a></i>		\n
+		\n<i>Android Firewall</i> является ответвлением и дальнейшим развитием <i>DroidWall</i>, графического интерфейса для управления Linux-файрволом <b>IPTABLES</b>.
+		IPTABLES позволяет управлять доступом приложений к различным сетям передачи данных.\n
+		\nЭто отличное решение для экономии трафика и повышения конфиденциальности.
+		\n
+		\n<i>Android Firewall</i> является приложением с открытым исходным кодом, распространяется свободно под лицензией <b>GPL v3</b>.  
+		\n
+		\nДля участия в переводе <i>Android Firewall</i> посетите сайт Crowdin:
+		\n<i><a href="http://www.crowdin.net/project/android-firewall">http://www.crowdin.net/project/android-firewall</a></i>    \n
+		\nИспользуемые библиотеки:
+		\n<i>ActionBarSherlock — под лицензией Apache 2.0</i>		\n<i><a href="http://actionbarsherlock.com">http://actionbarsherlock.com</a></i>		\n<i>Libsuperuser — под лицензией Apache 2.0</i>		\n<i><a href="http://github.com/Chainfire/libsuperuser">http://github.com/Chainfire/libsuperuser</a></i>		\n</string>
+<string name="help_changelog_234">Версия 2.3.4\n
+    \n
+    1. Fixed bug where Nav drawer would default back to English if language was manually changed.\n
+    2. Updated Help file information for easier translation.\n
+    3. Added more information to Error Reports to help with troubleshooting. All data is still available for users to look at so they know what is being transmitted.\n
+    4. Added interfaces for new devices.\n
+    5. UI cleanup.\n
+    6. Improved support for XXHDPI devices.\n
+    7. Apps that are uninstalled will now show up at the top of the app list if reinstalled. This only applies to apps uninstalled after this update is installed.\n
+    8. Menu options are now correct after the plugin or a shortcut makes a change to firewall.\n
+    9. Notification icon updated so it looks far better.</string>
+</resources>

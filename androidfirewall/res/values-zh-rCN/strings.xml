@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <string name="app_name">Android Firewall</string>
+    <string name="title_enabled">Android Firewall（防火墙已启用）</string>
+    <string name="title_disabled">Android Firewall（防火墙已禁用）</string>
+    <string name="showrules">显示规则</string>
+    <string name="applyrules">应用规则</string>
+    <string name="saverules">保存规则</string>
+    <string name="applyrules2">应用 IPv6 规则</string>
+    <string name="purgerules">清空规则</string>
+    <string name="setpwd">设置密码</string>
+    <string name="help">帮助</string>
+    <string name="close">关闭</string>
+    <string name="exit">退出</string>
+    <string name="fw_enabled">防火墙已启用</string>
+    <string name="fw_disabled">防火墙已禁用</string>
+    <string name="ipv6_enabled">IPv6 已启用</string>
+    <string name="ipv6_disabled">IPv6 未启用</string>
+    <string name="ipv6_was_enabled">IPv6 已被启用</string>
+    <string name="ipv6_was_disabled">IPv6 已被禁用</string>
+    <string name="log_enabled">日志已启用</string>
+    <string name="log_disabled">日志已禁用</string>
+    <string name="log_was_enabled">日志已被启用</string>
+    <string name="log_was_disabled">日志已被禁用</string>
+    <string name="log_cleared">日志已清除</string>
+    <string name="show_log">显示REJECT日志</string>
+    <string name="clear_log">清除日志</string>
+    <string name="applying_rules">应用 iptables 规则。</string>
+    <string name="applyingipv6_rules">应用 ip6tables 规则。</string>
+    <string name="saving_rules">保存 iptables 规则。</string>
+    <string name="deleting_rules">删除 iptables 规则。</string>
+    <string name="rules_applied">规则应用成功</string>
+    <string name="rules_saved">规则保存成功</string>
+    <string name="rules_deleted">规则删除成功</string>
+    <string name="pass_titleset">设置密码锁定</string>
+    <string name="pass_titleget">需要密码</string>
+    <string name="enterpass">输入密码：</string>
+    <string name="enternewpass">输入新密码（放空则删除）：</string>
+    <string name="passdefined">密码锁定已设置</string>
+    <string name="passremoved">密码锁定已移除</string>
+    <string name="passerror">改变密码锁定出错</string>
+    <string name="working">正在工作……</string>
+    <string name="reading_apps">正在读取安装的程序</string>
+    <string name="please_wait">请稍等</string>
+    <string name="mode_header">模式：%s</string>
+    <string name="mode_whitelist">白名单（允许选中）</string>
+    <string name="mode_blacklist">黑名单（阻止选中）</string>
+    <string name="toast_bin_installed">Android Firewall：二进制文件已安装！</string>
+    <string name="toast_enabled">Android Firewall：防火墙已启用！</string>
+    <string name="toast_error_enabling">Android Firewall：启用防火墙时出错！</string>
+    <string name="toast_disabled">Android Firewall：防火墙已禁用！</string>
+    <string name="toast_error_disabling">Android Firewall：禁用用防火墙时出错！</string>
+    <string name="set_custom_script">设置自定义脚本</string>
+    <string name="custom_script_defined">自定义脚本已定义</string>
+    <string name="custom_script_removed">自定义脚本已删除</string>
+    <string name="custom_script_error">保存自定义脚本时出错</string>
+    <string name="custom_script_info"><b>在这里输入你的自定义脚本。</b>		\n<i>（放空则删除）</i>		\n查看自定义脚本的更多信息，点击 <a href="http://code.google.com/p/droidwall/wiki/CustomScripts"></a>.</string>
+    <string name="custom_script2_info">    	\n<b>自定义禁用脚本</b>    	\n在防火墙<b>被禁用</b>时执行的脚本：</string>
+    <string name="unsaved_changes">未保存更改</string>
+    <string name="unsaved_changes_message">有未保存更改。\n你想保存还是丢弃它们？</string>
+    <string name="apply">应用</string>
+    <string name="discard">丢弃</string>
+    <string name="overwrite_rules">即将覆盖现有规则，要继续吗？</string>
+    <string name="importsuccess">导入成功！</string>
+    <string name="importfailed">导入失败！</string>
+    <string name="exportfailed">导出失败！</string>
+    <string name="exportsuccess">导出成功！</string>
+    <string name="enterfilename">请输入文件名</string>
+    <string name="new_app_installed">您安装了一款需要网络连接的应用</string>
+    <string name="notify_enabled">启用通知</string>
+    <string name="notify_disabled">通知被禁用</string>
+    <string name="notify_was_enabled">通知已启用</string>
+    <string name="notify_was_disabled">通知已启用</string>
+    <string name="importrules">导入规则</string>
+    <string name="exportrules">导出规则</string>
+    <string name="managerulefiles">管理规则文件</string>
+    <string name="options">选项</string>
+    <string name="wifi">无线</string>
+    <string name="data">数据</string>
+    <string name="roaming">漫游</string>
+    <string name="clear">清除</string>
+    <string name="password_not_same">两次输入密码不同！请重新输入。</string>
+    <string name="password_enter_again">请再次输入密码。</string>
+    <string name="profile_header">配置：%s</string>
+    <string name="defaultprofile">默认</string>
+    <string name="profile1">配置1</string>
+    <string name="profile2">配置2</string>
+    <string name="profile3">配置3</string>
+    <string name="profile4">配置4</string>
+    <string name="profile5">配置5</string>
+    <string name="pleasechoose">请选择要创建或者修改的配置</string>
+    <string name="saveprofile">创建配置</string>
+    <string name="defaultsaved">默认配置保存成功！</string>
+    <string name="profile1saved">配置1 保存成功</string>
+    <string name="profile2saved">配置2 保存成功</string>
+    <string name="profile3saved">配置3 保存成功</string>
+    <string name="profile4saved">配置4 保存成功</string>
+    <string name="profile5saved">配置5 保存成功</string>
+    <string name="profileselect">请选择要应用的配置</string>
+    <string name="profileapplied">已成功应用配置</string>
+    <string name="loadprofile">加载配置</string>
+    <string name="rulesoptions">规则管理</string>
+    <string name="profilesoptions">配置管理</string>
+    <string name="ipv6_title">IPv6 支持</string>
+    <string name="notifications_title">通知支持</string>
+    <string name="enableLog_title">启用日志</string>
+    <string name="invert">反选</string>
+    <string name="twofortyfouram_locale_breadcrumb_format">%1$s%2$s%3$s</string>
+    <string name="twofortyfouram_locale_breadcrumb_separator">" | "</string>
+    <string name="twofortyfouram_locale_menu_dontsave">取消</string>
+    <string name="twofortyfouram_locale_menu_help">帮助</string>
+    <string name="twofortyfouram_locale_menu_save">完成</string>
+    <string name="tasker_name">Android Firewall - 计划任务</string>
+    <string name="tasker_profile_disabled">计划任务已将防火墙关闭！</string>
+    <string name="search_name">搜索应用</string>
+    <string name="profilenames">编辑配置名</string>
+    <string name="vpn_title">VPN 支持</string>
+    <string name="vpn">VPN</string>
+    <string name="roaming_title">漫游支持</string>
+    <string name="usersettings">设置</string>
+    <string name="taskertoast_title">任务通知</string>
+    <string name="ipv6_summary">此选项启用或禁用 IPv6 支持</string>
+    <string name="vpn_summary">此选项启用或禁用 VPN 支持</string>
+    <string name="roaming_summary">此选项启用或禁用漫游网络支持</string>
+    <string name="taskertoast_summary">此选项启用或禁用在配置文件改变时弹出计划任务通知</string>
+    <string name="log_summary">此选项启用或禁用防火墙日志</string>
+    <string name="notification_summary">此选项启用或禁用新安装的需要网络连接的应用的通知</string>
+    <string name="tasker_profile">计划任务已经改变了 Android Firewall 当前使用的配置文件</string>
+    <string name="apply_setting_changes">根据设置变更应用规则</string>
+    <string name="rules_export_successfully">规则导出成功</string>
+    <string name="rules_import_successfully">规则导入成功</string>
+    <string name="no_rules_file">打开 Android Firewall 目录出错。请先导出一个规则文件</string>
+    <string name="no_storage">打开 Android Firewall 目录出错。请先检查您的SD卡是否已挂载或外部存储是否可以用。</string>
+    <string name="file_deleted">文件已被删除。</string>
+    <string name="widget_fail">无法禁用防火墙，因为设置了密码保护</string>
+    <string name="error_no_root">Android Firewall 未取得root权限！</string>
+    <string name="languageSupport">语言</string>
+    <string name="simplewidget">开关部件</string>
+    <string name="statuswidget">菜单部件</string>
+    <string name="sdcard_title">Apps on SDCard 支持</string>
+    <string name="sdcard_summary">此选项让应用在重启后应用规则之前等待SD卡扫描完成。如果有些应用需要访问数据，并且您已经把它们移动到SD卡上，则该选项是必需的。请注意访选项将增加重启后应用规则的时间。</string>
+    <string name="log_empty">日志为空</string>
+    <string name="log_title">防火墙日志</string>
+    <string name="usage_help">使用方法</string>
+    <string name="rules_help">规则管理</string>
+    <string name="profiles_help">配置帮助</string>
+    <string name="about_help">关于</string>
+    <string name="drawer_open">打开导航抽屉</string>
+    <string name="drawer_close">关闭导航抽屉</string>
+    <string name="lan">LAN</string>
+    <string name="lan_summary">此选项启用或禁用 LAN 支持。允许一个应用程序能访问LAN（局域网）而不能访问互联网。</string>
+    <string name="lan_title">LAN 支持</string>
+    <string name="select_mode">选择模式：</string>
+    <string name="delete_rules_yes">是</string>
+    <string name="delete_rules_no">否</string>
+    <string name="no_rules_files">访问 androidfirewall 文件夹时发生错误。请先导出一个规则文件。</string>
+    <string name="rules_file_deleted">文件已被删除。</string>
+    <string name="version_about">版本：</string>
+    <string name="connectchangerules_summary">启用该选项将在每次数据，WiFi，漫游或LAN连接改变时应用防火墙规则。该选项需要启用LAN支持。在旧设备上启用该选项可能会有性能问题。</string>
+    <string name="connectchangerules_title">自动防火墙规则</string>
+    <string name="system_iptables">系统iptables</string>
+    <string name="included_iptables">自带iptables</string>
+    <string name="iptables_title">iptables二进制文件</string>
+    <string name="ipv6_unavailable">IPv6 支持在您的设备上不可用。</string>
+    <string name="tether_summary">启用该选项将允许您分享互联网连接给其它设备。</string>
+    <string name="tether_title">网络共享支持</string>
+    <string name="log_fetch_error">无法获取日志</string>
+    <string name="log_parse_error">无法解析日志。</string>
+    <string name="LogAppName">程序名称</string>
+    <string name="LogPackBlock">共阻止包</string>
+    <string name="LogPackAllowed">共允许包</string>
+    <string name="log_failed">更新日志状态出错。</string>
+    <string name="input_off_summary">启用该选项将激活iptables的INPUT链。它允许您阻止发送到您设置上的特定类型通讯包。</string>
+    <string name="input_on_summary">禁用用该选项将禁用iptables的INPUT链。</string>
+    <string name="input_title">INPUT 链</string>
+    <string name="input_options_title">INPUT 链设置</string>
+    <string name="settings_title">程序设置</string>
+    <string name="multiuser_summary">启用该选项将解锁多用户支持。多用户支持<b><i>需要</i></b>让<b><i>所有用户</i></b>使用黑名单。多用户也需要 Android 4.1 或更新版本。手机不支持多用户。</string>
+    <string name="multiuser_title">多用户支持</string>
+    <string name="multiuser_enabled">多用户支持已启用。切换到黑名单。</string>
+    <string name="multiuser_disabled">多用户支持已禁用，您不是主账户。请先在所有账户下启用多用户支持。</string>
+    <string name="input_wifi">INPUT 链</string>
+    <string name="dst_ip">目标IP</string>
+    <string name="src_ip">来源IP</string>
+    <string name="dst_port">目标Port</string>
+    <string name="log_accept_summary">启用该功能将记录您设备上所有<i>被接受</i>的进出数据流。允许您查看程序发送数据到哪或从哪接收数据。</string>
+    <string name="enableLog_accept_title">启用记录防火墙接收信息日志。</string>
+    <string name="show_accept_log">显示ACCEPT日志</string>
+    <string name="sendreport">发送错误报告</string>
+    <string name="report_fail">获取错误报告出错</string>
+    <string name="interface_fail">获取接口信息失败</string>
+    <string name="generate_reports">正在生成错误报告</string>
+    <string name="generate_zip">正在创建Zip文件</string>
+    <string name="no_zip">无法找到错误报告Zip文件。</string>
+    <string name="send_email">发送邮件</string>
+    <string name="confirm_delete">您确定要删除文件</string>
+    <string name="error_purging">清除iptables出错：</string>
+    <string name="error_purging_code">清除iptables出错，退出代码：</string>
+    <string name="error_purgingipv6">清除ip6tables出错：</string>
+    <string name="error_purgingipv6_code">清除ip6tables出错，退出代码：</string>
+    <string name="error_showing_rules">显示规则时出错：</string>
+    <string name="error_clearing_rules">清除规则时出错：</string>
+    <string name="error_accessing_root">无法获取root权限</string>
+    <string name="error_installing_binaries">安装二进制文件时出错</string>
+    <string name="rules_file_missing">选择的规则文件无效或丢失。请导出新规则文件。</string>
+    <string name="error_accessing_class">访问class信息时出错，有联系开发人员。</string>
+    <string name="error_af_folder">访问androidfirewall文件夹出错。请先导出规则文件。</string>
+    <string name="help_usage"><b>使用 Android Firewall</b>\n<b>1.</b> 点击 <b>模式</b> 在 <i>白名单</i> 和 <i>黑名单</i> 模式间切换。
+\n<b>2.</b> 标记您想要阻止或允许的应用程序（取决于已选择的模式），每个网络接口单独设置。
+\n<b>3.</b> 打开菜单并启用防火墙。如果防火墙已经启用，只需要点击 <b>应用规则</b>。
+\n规则将被保存，并在每次重启设备后自动恢复。
+\n如果您想要检查当前 iptables 的所有规则，请点击导航抽屉中的 <b>显示规则</b>。
+\n
+\n<b>小部件</b>\n如果想快速启用或禁用防火墙，那么添加开关小部件到您的主屏幕上。
+\n如果想快速切换配置或启用/禁用防火墙，那么添加菜单小部件到您的主屏幕上。
+\n
+\n<b>防火墙日志</b>\n如果您想查看哪些应用程序被 Android Firewall 阻止，打开 <i>设置</i> 菜单并启用日志。
+\nAndroid Firewall 将记录每一条应用阻止日志。您可以在导航抽屉中打开菜单并点击 <b>显示日志</b>。
+\n
+\n<b>密码锁定</b>\n您可以使用导航抽屉中的 <b>设置密码</b> 选项来为 Android Firewall 设置密码保护。
+\n要移除密码保护，密码放空即可。
+\n
+\n<b>应用搜索</b>\n您可以在下拉列表旁边的搜索框中输入应用程序名称中的几个字母来搜索指定应用。
+\n
+\n<b>支持的接口</b>\n除了经典的WiFi和数据接口，现在也支持其它接口。有VPN，漫游，和LAN。可在 <i>Settings</i> 中启用。
+\n
+\n<i>VPN 支持</i> 允许应用程序仅在连接到VPN时访问网络。
+\n<i>漫游 支持</i> 允许应用程序在漫游时访问网络。
+\n<i>LAN 支持</i> 允许应用程序访问局域网而无法访问互联网。
+\n
+\n<b>注意：</b><i>自动防火墙规则与LAN支持</i> 需要访问网络权限与访问WiFi状态权限来访问每个接口的子网和LAN地址信息。<b>Android Firewall</b>不会传送数据或访问网络。
+\n
+\n<i>网络共享 支持</i> 允许您共享设备网络连接给便携电脑/平板/手机，而不用禁用防火墙。这是改进的新功能，不再需要允许"apps that run as root"和"kernel"。该设置现在也支持蓝牙网络共享。
+\n
+\n<b>Tasker/Locale 支持</b>\n<i>Android Firewall</i> 包含 Tasker 和 Locale 插件。该插件允许这两个程序根据变量启用或禁用防火墙，切换配置。更多信息请阅读配置帮助下的Tasker介绍。
+\nTasker 改变防火墙状态时通知默认被禁用。可在 <i>设置</i> 中启用。
+\n
+\n<b>多用户 支持</b>\n<i>Android Firewall</i>在平板上支持多用户。多用户支持目前需要您使用黑名单并在设置中启用。多用户支持为每个用户使用独立的IPTABLES链，每个用户都能控制网络访问。  
+\n
+\n<b>INPUT链 支持</b>\n<i>Android Firewall</i> 支持INPUT链。 INPUT链用于阻止外部向内的通讯。<i>Android Firewall</i>中INPUT链与OUTPUT链的工作方式有些不同。INPUT链同时应用到WiFi和数据连接，因为无法应用规则到指定的接口。INPUT链在黑名单和白名单下都能工作，与OUTPUT链相同。因为旧内核的限制，INPUT 链仅支持Android 4.x。
+\n
+\n<b>其它设置</b>\n
+\nIPv6 支持在 <i>设置</i> 中，为 IPv6 用户准备。
+\n用户可以在 <i>设置</i> 中切换应用程序语言为支持的某一种语言。
+\n<i>SDcard 支持</i>为移动应用到SDcard的用户提供 SDcard 支持。请在启用前阅读设置描述。
+\n
+\n<i>x86 支持</i> 可在使用Intel处理器的设备上使用。 
+\n
+\n<b>信息</b>\n
+\n<i>YouTube</i> 正常使用 <b>需要</b><i>媒体服务器</i>。
+\n</string>
+    <string name="help_rules"><i>规则管理</i> 可以导出，导入和删除规则文件。\n  
+        \n所有用户配置都保存在规则文件中，当您导出规则文件时您同时保存了您的设置，例如通知支持，启用日志，IPv6 支持等。这些文件也能用于创建您的配置。
+\n
+\n<b>导出规则</b> 导出您当前的规则和设置。
+\n<b>导入规则</b> 从文件中导入规则和设置。
+\n<b>管理规则文件</b> 可以删除规则文件。
+\n
+\n<i><b>说明</b></i>\n
+\n<b>导出规则</b>	\n
+\n1.  从屏幕左边向右滑动打开导航抽屉。
+\n2.  点击 <i>导出规则</i>。
+\n3.  输入以导出文件名称。
+\n4.  点击确定保存文件。
+\n
+\n该文件保存在您设备的外置存储的 <i>androidfirewall</i> 文件夹中。文件名为 用户输入的名称+\'_af.rules\'。
+\n
+\n<b>导入规则</b>	\n
+\n1.  从屏幕左边向右滑动打开导航抽屉。
+\n2.  点击 <i>导入规则</i>。
+\n3.  选择您想要导入的规则文件。
+\n
+\n在导入选择的规则文件后，数据和设置被导入，规则被应用。
+\n
+\n<b>管理规则文件</b>	\n
+\n1.  从屏幕左边向右滑动打开导航抽屉。
+\n2.  点击 <i>管理规则文件</i>。
+\n3.  点击您想要删除的规则文件。
+\n4.  弹出确认窗口询问是否删除。
+\n5.  点击 \'否\' 或 \'是\'。
+\n
+\n如果您点击 \'是\'，规则文件将被删除。</string>
+    <string name="help_profiles"><i>配置</i> 可以快速切换防火墙规则和设置。当您想根据所在位置或网络来使用不同的规则时非常有用。例如，工作和在家的规则不同。
+\n
+\n配置从您导出的规则文件中创建，您可以在它们之间快速切换，也可以支持5个以上配置。\n
+\n<b>创建规则</b> 允许您选择规则文件并分配规则和设置给某个配置。
+\n<b>加载配置</b> 允许您应用配置。
+\n<b>编辑配置名</b> 允许您编辑配置的名称，更容易记住配置的作用。
+\n
+\n您可以用几种方式切换配置；
+\n
+\n<b>1.</b> 使用 加载配置 手工加载配置。
+\n<b>2.</b> 在应用程序主界面使用下拉列表加载配置。
+\n<b>3.</b> 使用 Tasker 或 Locale 根据时间，位置或其它您选择的变量自动切换配置。
+\n<b>4.</b> 使用 <i>菜单小部件</i> 在主屏幕上快速切换配置。
+\n
+\n<i><b>说明</b></i>\n
+\n<b>创建配置</b>\n
+\n1.  从屏幕左边向右滑动打开导航抽屉。
+\n2.  点击 <i>创建配置</i>。
+\n3.  点击您想要创建的配置。
+\n4.  点击您想分配到该配置的规则文件。
+\n5.  如果想为其它配置分配规则文件则点击其它的配置或者点击 返回 完成。
+\n
+\n<b>加载配置</b>\n
+\n1.  从屏幕左边向右滑动打开导航抽屉。
+\n2.  点击 <i>加载配置</i>。
+\n3.  点击您想要应用的配置。
+\n
+\n<b>编辑配置名</b>\n
+\n1.  从屏幕左边向右滑动打开导航抽屉。
+\n2.  点击 <i>编辑配置名</i>.
+\n3.  点击您想要重命名的配置。
+\n4.  输入配置名称并点击 \'确定\'。
+\n5.  继续修改名称或点击 返回 完成。
+\n
+\n<b>使用下拉列表</b>\n
+\n1.  点击下拉列表，将显示所有配置的下拉菜单。
+\n2.  点击您想要加载的配置。
+\n
+\n<b>使用 Tasker</b>\n
+\n1.  打开 Tasker。
+\n2.  点击 \'+\' 并选择引起配置变化的\'首要条件\'。
+\n3.  在设置完条件后将提示您配置\'进入任务\'。
+\n4.  输入任务名称并点击钩号。
+\n5.  点击 \'+\' 就会出现 \'选择操作类别\'窗口。
+\n6.  点击 \'插件\'。
+\n7.  点击 <i>Android Firewall</i>。
+\n8.  点击 \'编辑\' 按钮。
+\n9.  选择您希望 Tasker 应用的配置。
+\n10.  点击一次返回。您现在就可以点击 左下角的\'播放\' 按钮来测试 Tasker 的配置。</string>
+    <string name="help_dialog_text"><i>作者: Jason Tschohl.  原作者: Rodrigo Zechin Rosauro</i>		\n    <i><a href="http://github.com/skullone/android_firewall">http://github.com/skullone/android_firewall</a></i>		\n
+		\n    <i>Android Firewall</i> 是 <i>DroidWall</i> 的分支，是强大的 <b>iptables</b> Linux 防火墙的前端程序。
+		它允许您限定哪些应用程序可以访问数据网络。\n
+		\n如果您没有不限流量的数据套餐，或您关注隐私，本应用是一个完美的解决方案。\n
+		\n
+		\n<i>Android Firewall</i> 是使用 <b>GPL v3</b> 的开源项目。  
+		\n
+		\n如果您想帮助翻译<i>Android Firewall</i>，请访问Crowdin网站：
+		\n<i><a href="http://www.crowdin.net/project/android-firewall">http://www.crowdin.net/project/android-firewall</a></i>
+		\n
+		\n使用的库:
+		\n<i>ActionBarSherlock - Apache License 2.0</i>		\n<i><a href="http://actionbarsherlock.com">http://actionbarsherlock.com</a></i>		\n<i>Libsuperuser - Apache License 2.0</i>		\n<i><a href="http://github.com/Chainfire/libsuperuser">http://github.com/Chainfire/libsuperuser</a></i>		\n</string>
+
+</resources>
