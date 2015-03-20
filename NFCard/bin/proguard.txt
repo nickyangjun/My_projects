@@ -1,0 +1,18 @@
+# view res/layout/writeisodepcard.xml #generated:89
+-keep class android.support.v4.view.ViewPager { <init>(...); }
+
+# view AndroidManifest.xml #generated:6
+-keep class com.sinpo.xnfc.MyApplication { <init>(...); }
+
+# view AndroidManifest.xml #generated:8
+-keep class com.sinpo.xnfc.NFCard { <init>(...); }
+
+# view AndroidManifest.xml #generated:45
+-keep class com.sinpo.xnfc.WriteIsodepCard { <init>(...); }
+
+# view AndroidManifest.xml #generated:32
+-keep class com.sinpo.xnfc.WriteNdefCard { <init>(...); }
+
+# onClick res/layout/writeisodepcard.xml #generated:97
+-keepclassmembers class * { *** startwrite(...); }
+

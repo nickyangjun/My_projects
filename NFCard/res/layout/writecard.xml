@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/bg_default">
+
+    <TextView
+        android:id="@+id/titile"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         android:background="@drawable/box" 
+        android:textStyle="bold"
+		android:textColor="@color/text_button"
+		android:textSize="20sp"
+        android:text="@string/write_titile_msg" >
+    </TextView>
+    
+     <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/write_name" 
+		android:textColor="@color/text_button">
+    </TextView>
+
+    <EditText
+        android:id="@+id/et_input_name"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp" 
+         android:background="@drawable/box" 
+        android:textStyle="bold"
+         android:singleLine="true"
+		android:textColor="@color/text_button"/>
+
+    <TextView
+        android:id="@+id/tv_nums"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+		android:textColor="@color/text_button"
+        android:text="@string/write_nums" >
+    </TextView>
+
+    <EditText
+        android:id="@+id/et_input_nums"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp" 
+         android:background="@drawable/box" 
+        android:textStyle="bold"
+        android:singleLine="true"
+        android:numeric="integer"
+        android:textColor="@color/text_button"/>
+
+    <TextView
+        android:id="@+id/tv_account"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/write_account" 
+		android:textColor="@color/text_button">
+    </TextView>
+
+    <EditText
+        android:id="@+id/et_input_account"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp" 
+         android:background="@drawable/box" 
+        android:textStyle="bold"
+         android:singleLine="true"
+        android:numeric="integer"
+		android:textColor="@color/text_button"/>
+
+    <TextView
+        android:id="@+id/tv_balance"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/write_balance" 
+		android:textColor="@color/text_button">
+    </TextView>
+
+    <EditText
+        android:id="@+id/et_input_balance"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp" 
+         android:background="@drawable/box" 
+        android:textStyle="bold"
+         android:singleLine="true"
+        android:numeric="decimal"
+		android:textColor="@color/text_button"/>
+
+    <TextView
+        android:id="@+id/tv_passw"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/write_passw" 
+		android:textColor="@color/text_button">
+    </TextView>
+
+    <EditText
+        android:id="@+id/et_input_passw"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp" 
+         android:background="@drawable/box" 
+        android:textStyle="bold"
+         android:singleLine="true"
+        android:numeric="integer"
+		android:textColor="@color/text_button"/>
+
+    <TextView
+        android:id="@+id/tv_txt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/write_txt"
+		android:textColor="@color/text_button" >
+    </TextView>
+
+    <EditText
+        android:id="@+id/et_input_txt"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+         android:background="@drawable/box" 
+        android:textStyle="bold"
+		android:textColor="@color/text_button" />
+
+    <Button
+        android:id="@+id/btnwrite_in"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/box" 
+        android:textStyle="bold"
+		android:textColor="@color/text_button"
+		android:textSize="25sp"
+        android:text="@string/writed" >
+    </Button>
+
+</LinearLayout>
