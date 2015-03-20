@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ringscan"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+  
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.ringscan.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".DBtestActivity" >
+            <intent-filter>
+                <action android:name="example.ringscan.DBtestActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".DownloadManagerActivity" >
+            <intent-filter>
+                <action android:name="example.ringscan.DownloadManagerActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+          <activity android:name=".HttpURLConnectionActivity" >
+            <intent-filter>
+                <action android:name="example.ringscan.HttpURLConnectionActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+     
+          <activity android:name=".HttpClientActivity" >
+            <intent-filter>
+                <action android:name="example.ringscan.HttpClientActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+           <!--  android:configChanges="orientation|keyboardHidden|screenSize" -->
+        <activity android:name=".SaveInstanceStateActivity"
+      
+            android:windowSoftInputMode="stateVisible|adjustResize">
+            <intent-filter>
+                <action android:name="example.ringscan.SaveInstanceStateActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ShellCmdActivity">
+             <intent-filter>
+                <action android:name="example.ringscan.ShellCmdActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            
+            </activity>
+    </application>
+
+</manifest>

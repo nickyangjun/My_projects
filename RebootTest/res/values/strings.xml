@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">RebootTest</string>
+    <string name="action_settings">Settings</string>
+    <string name="auto_reboot">自动重启测试</string>
+    <string name="set_reboot_times">设置重启次数：</string>
+    <string name="reboot_intertime">设置重启时间间隔（毫秒）：</string>
+    <string name="reboot_begain">开始测试</string>
+    <string name="reboot_stop">停止测试</string>
+    <string name="reboot_times">已重启次数：<xliff:g>%d</xliff:g></string>
+    <string name="reboot_inter_tip">请输入重启间隔时间</string>
+    <string name="clear_reboottimes">置零</string>
+
+</resources>
