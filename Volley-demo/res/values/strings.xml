@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Volley Demo</string>
+    
+    <string name="data_request_text">数据请求</string>
+    <string name="string_request">String请求</string>
+    <string name="json_request">Json请求</string>
+    
+    
+    <string name="image_request_text">图片请求</string>
+    <string name="image_request">Image请求</string>
+    <string name="image_loader">ImageLoader</string>
+    <string name="network_image_view">NetworkImageView</string>
+    
+    <string name="custom_request_text">自定义请求</string>
+    <string name="xml_request">Xml请求 </string>
+    
+    <string name="post_request_text">post请求</string>
+    <string name="post_request">post请求</string>
+    
+    
+
+    <string name="action_about">关于</string>
+    <string name="about_text">
+	<![CDATA[
+	<div>
+	<br />作者：<a href="https://github.com/grumoon">Grumoon</a><br />
+	<br />更多内容请关注 <a href="https://github.com/android-cn/android-open-project-analysis">Android 开源项目实现原理解析</a><br />
+	</div>
+	]]>
+    </string>
+    
+    <string name="request_url_hint">请输入请求地址</string>
+    <string name="request_send">发送</string>
+    
+    <string name="request_fail_text">请求失败</string>
+    
+    <string name="request_params_text">参数格式:key=value，多个参数用 ; 分隔</string>
+ 
+</resources>
